@@ -1,5 +1,6 @@
-import giveHealth from '..health';
+import giveHealth from '../health';
+
 test('state check test', () => {
-    let result = giveHealth({name: 'Witch', health: 90});
-    expect(result).toBe('healthy');
+  const result = giveHealth({ name: 'Witch', health: 90 });
+  expect(result).toBe('healthy');
 });
